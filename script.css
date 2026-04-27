@@ -1,0 +1,67 @@
+/* 1. Basic Reset & Background */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(223, 193, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px ;
+}
+.neon-button{
+    border-radius: 10px;
+    background: #35adf1;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #35adf1, 0 0 40px #35adf1;
+    transition: 0.5s;
+}
+.neon-button:hover{
+    background-color: rgb(2, 196, 255);
+}
+
+.button{
+    margin: 20px;
+    padding: 10px;
+}
+.heading{
+    background-color: rgb(253, 248, 238);
+    text-align: center;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.open-me{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(139, 139, 252);
+    margin: 100px;
+    padding: 30px;
+    min-width: 60vw;
+}
+
+.open-me-button{
+    color: black;
+    background-color: aquamarine;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1px;
+    margin-top: 10px;
+    border-radius: 2px;
+
+}
+
+@media screen and (max-width:423px) {
+    .open-me{
+        margin:1px;
+    }
+}
